@@ -3,3 +3,6 @@
   border: 1px solid black;
 }
 
+.min-h-300 {
+  min-height: 300px;
+}
