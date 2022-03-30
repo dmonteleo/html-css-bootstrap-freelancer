@@ -69,9 +69,32 @@ header nav .row {
 
 /* CARDS */
 
-.dm-card {
-  height: 250px;
+.dm-card img {
+  width: 100%;
+  border-radius: 10px;
 }
+
+.dm-card .layover {
+  background-color: rgba(26, 188, 156, .7);
+  display: none;
+}
+
+.dm-card:hover .layover {
+  display: flex;
+}
+.dm-card {
+  margin-bottom: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.dm-card .layover .bi-plus-lg {
+  color: white;
+  font-size: 60px;
+}
+
+
 
 /* ABOUT */
 
