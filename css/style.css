@@ -7,10 +7,22 @@ header {
 
 header nav {
   height: 100%;
+  text-transform: uppercase;
+}
+
+header nav div a {
+  color: white;
 }
 
 header nav .row {
   height: 100%;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+#navbarNav {
 }
 
 /* JUMBOTRON */
