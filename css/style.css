@@ -32,6 +32,14 @@ header nav .row {
   background-color: #1abc9c;
 }
 
+.sc-jumbotron-image{
+  max-width: 250px;
+}
+
+.jumbotron h3, .jumbotron h1 {
+  text-transform: uppercase;
+}
+
 /* PORTFOLIO */
 
 .portfolio {
