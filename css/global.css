@@ -5,6 +5,11 @@
   margin: 0 auto;
 }
 
+.dm-container-2 {
+  width: 80%;
+  margin: 0 auto;
+}
+
 body {
   color: #2C3E50;
 }
@@ -33,5 +38,10 @@ li a, div a {
 .dm-btn-green:focus {
   background: #0f836c;
   color: #fff;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 20px 0;
 }
 
