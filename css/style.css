@@ -22,9 +22,6 @@ header nav .row {
   font-weight: bold;
 }
 
-#navbarNav {
-}
-
 /* JUMBOTRON */
 
 .jumbotron {
@@ -36,8 +33,31 @@ header nav .row {
   max-width: 250px;
 }
 
-.jumbotron h3, .jumbotron h1 {
+.jumbotron h3, 
+.jumbotron h1 {
   text-transform: uppercase;
+}
+
+.dm-star .bi-star-fill {
+  font-size: 30px;
+  vertical-align: middle;
+  margin: 30px 2%;
+}
+
+.dm-star::before, 
+.dm-star::after {
+  content: '';
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  background-color: white;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+
+.dm-star.dm-star-dark::before, 
+.dm-star.dm-star-dark::after {
+  background-color: #2C3E50;
 }
 
 /* PORTFOLIO */
@@ -46,6 +66,8 @@ header nav .row {
   height: 500px;
   background-color: white;
 }
+
+/* CARDS */
 
 .dm-card {
   height: 250px;
