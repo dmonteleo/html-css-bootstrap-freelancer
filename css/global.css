@@ -18,3 +18,20 @@ li a, div a {
   text-decoration: none;
 }
 
+.dm-section-green {
+  background-color: #31BC9C;
+  color: white;
+}
+
+.dm-btn-green {
+  background: #1ABC9C;
+  color: #fff;
+}
+
+.dm-btn-green:hover,
+.dm-btn-green:active,
+.dm-btn-green:focus {
+  background: #0f836c;
+  color: #fff;
+}
+
